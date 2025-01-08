@@ -2,6 +2,7 @@
   "name": "ask",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://luchocalos.github.io/ask",
   "dependencies": {
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
@@ -12,6 +13,8 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
