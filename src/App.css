@@ -51,3 +51,129 @@ p {
     font-style: normal;
     font-size: 1rem;
 }
+
+li {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+/*media screen 1022*/
+
+@media (min-width:769px) and (max-width: 1022px) {
+
+    .App-header {
+        padding-top: 2rem;
+        text-align: center !important;
+        background-color: #fff !important;
+        height: 8rem !important;
+        
+    }
+    
+    .App-body {
+        padding-left: 12rem;
+        padding-bottom: 3rem;
+    }
+    
+    .separator {
+        position: absolute;
+        color: #D2D5DA;
+        width: 30rem;
+    }
+       
+    
+    h1 {
+      font-family: "Inter", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1rem;
+    }
+    
+    p {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+    li {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        padding-right: 2rem;
+    }
+}
+
+
+/*media movil*/
+
+@media (min-width:360px) and (max-width: 768px) {
+
+    .App-header {
+        padding-top: 2rem;
+        text-align: center !important;
+        background-color: #fff !important;
+        height: 6rem !important;
+        
+    }
+    
+    .App-body {
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+    }
+    
+    .separator {
+        position: absolute;
+        color: #D2D5DA;
+        width: 20rem;
+    }
+       
+    
+    h1 {
+      font-family: "Inter", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1rem;
+    }
+    
+    p {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+    li {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        padding-right: 1.5rem;
+    }
+}
