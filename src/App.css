@@ -1,0 +1,53 @@
+
+.App {
+    background-color: #F8FAFC;
+}
+
+.App-header {
+    padding-top: 5rem;
+    text-align: center !important;
+    background-color: #fff !important;
+    height: 10rem !important;
+    
+}
+
+.App-body {
+    padding-left: 28rem;
+    padding-bottom: 3rem;
+}
+
+.separator {
+    position: absolute;
+    color: #D2D5DA;
+    width: 40rem;
+}
+
+a {
+    color: #4E80EE;
+    text-decoration: none;
+}
+
+
+h1 {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.25rem;
+}
+
+h2 {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
